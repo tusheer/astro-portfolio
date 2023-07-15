@@ -24,6 +24,10 @@ const presentation: Presentation = {
       label: "Github",
       link: "https://github.com/tusheer",
     },
+    {
+      label : 'Facebook',
+      link : 'https://www.facebook.com/tusheer.me'
+    }
   ],
 };
 
