@@ -29,6 +29,7 @@ const openGraph = {
   alt: og?.alt || "astro portfolio template image",
   url: DEFAULT_URL_SITE,
   description: og?.description || DEFAULT_DESCRIPTION_PAGE,
+  "og:description" : og?.description || DEFAULT_DESCRIPTION_PAGE,
 };
 ---
 
@@ -70,6 +71,7 @@ const openGraph = {
         { name: "twitter:title", content: openGraph.title },
         { name: "twitter:description", content: openGraph.description },
         { name: "twitter:site", content: "@tusheeer" },
+        {name : "og:description", content: openGraph.description},
       ],
     }}
   />
